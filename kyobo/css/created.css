@@ -1,0 +1,145 @@
+﻿@CHARSET "UTF-8";
+
+#bbs {
+	width: 800px;
+	margin: 30px auto;
+	text-align: left;
+}
+
+#bbs_title {
+	width: 574px;
+	padding-left: 20px;
+	height: 40px;
+	border: 3px solid #00008B;
+	text-align: left;
+	font-weight: rnff;
+	line-height: 40px;
+	font-size: 10pt;
+	margin-bottom: 30px;
+}
+
+#bbsCreated {
+	width: 600px;
+	overflow: visible;
+	border-top: 3px solid #00008B;
+	border-bottom: 3px solid #00008B;
+	text-align: left;
+	font-family:"굴림"; 
+	margin: auto;
+}
+
+.bbsCreated_bottomLine {
+	height: 35px;
+	line-height: 100px;
+	border-bottom: 1px solid #00008B;
+	clear: both;
+	text-align: left;
+	
+}
+
+.bbsCreated_noLine {
+	height: 35px;
+	line-height: 35px;
+	clear: both;
+	text-align: left;
+}
+
+#bbsCreated_content {
+	height: 170px;
+	line-height: 170px;
+	border-bottom: 1px solid #DBDBDB;
+	clear: both;
+	text-align: left;
+}
+
+#bbsCreated dt {
+	float: left;
+	height: 35px;
+	width: 80px;
+	line-height: 35px;
+	text-align: left;
+	padding-left: 20px;
+	background-color: #EEEEEE;
+}
+
+#bbsCreated dd {
+	float: left;
+	height: 35px;
+	width: 440px;
+	line-height: 35px;
+	text-align: left;
+	padding-left: 10px;
+}
+
+#bbsCreated_content dt {
+	float: left;
+	height: 170px;
+	width: 80px;
+	text-align: left;
+	padding-left: 20px;
+	background-color: #EEEEEE;
+}
+
+#bbsCreated_content dd {
+	float: left;
+	height: 170px;
+	width: 440px;
+	line-height: 170px;
+	text-align: left;
+	padding-left: 10px;
+}
+
+#bbsCreated_footer {
+	width: 600px;
+	overflow: visible;
+	clear: both;
+	height: 50px;
+	line-height: 50px;
+	margin-bottom: 20px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.boxTF {
+	border: 1px solid;
+	height: 15px;
+	margin-top: 7px;
+	padding: 2px 2px 2px 2px;
+	border-color: #666666;
+	background-color: #ffffff;
+	font-family: "굴림";
+	font-size: 9pt;
+}
+
+.boxTA {
+	border: 1px solid;
+	height: 150px;
+	margin-top: 7px;
+	padding: 2px 2px 2px 2px;
+	border-color: #666666;
+	background-color: #ffffff;
+	font-family: "굴림";
+	font-size: 9pt;
+}
+
+select {
+    width: 500px;
+    height: 30px;
+    padding-left: 10px;
+    font-size: 18px;
+    color: #000000;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    
+  /*모든 브라우저에 적용될 수 있도록 vender-prefix 를 써줘야 하고 IE는 속성이 살짝 다릅니다. */  
+  -webkit-appearance: none; /* 화살표 없애기 for chrome*/
+    -moz-appearance: none; /* 화살표 없애기 for firefox*/
+    appearance: none; /* 화살표 없애기 공통*/
+    
+    background:url("") no-repeat /* 화살표 아이콘 추가 */
+}
+select:-ms-expand {
+   display: none;            /* 화살표 없애기 for IE10, 11*/
+}
+
+
